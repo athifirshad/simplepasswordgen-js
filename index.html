@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="index.css">
     </head>
-    <body>
+    <body onmousedown="return false" onselectstart="return false">
         <div class="flex-cont-2">
 <h1 id = "head" >Generate</h1>
         <h1 id = "next" > a random password</h1>
@@ -14,12 +14,12 @@
         <button id = "genbtn" class = "generate"> Generate Password </button>
         <br>
         <script src="index.js"></script>
-        <p1> ________________________________________</p1>
-        </div>
+        <hr style="width: 350px; background-color: beige;"> 
+    </div>
         
         <div class="flex-container">
-        <div id = "pass1field">1</div>
-        <div id = "pass2field">2</div>
+        <div id = "pass1field"></div>
+        <div id = "pass2field"></div>
         </div>
     </body>
 </html>
