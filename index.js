@@ -16,6 +16,9 @@ function generate(){
     let secondStr = secondPass.join('')
     document.getElementById("pass1field").textContent = firstStr
     document.getElementById("pass2field").textContent = secondStr
+    document.getElementById("copy1").textContent = "Copy!";
+    document.getElementById("copy2").textContent = "Copy!";
+    
 }
 
 document.getElementById("copy1").addEventListener("click", function(){
