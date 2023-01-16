@@ -85,3 +85,16 @@ p1{
     height: 200px;
 }
 
+.copy-btn {
+    background-color: #10B981;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.copy-btn:hover {
+    background-color: #1F2937;
+}
