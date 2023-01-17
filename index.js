@@ -16,8 +16,8 @@ function generate(){
     let secondStr = secondPass.join('')
     document.getElementById("pass1field").textContent = firstStr
     document.getElementById("pass2field").textContent = secondStr
-    document.getElementById("copy1").textContent = "Copy";
-    document.getElementById("copy2").textContent = "Copy";
+    document.getElementById("copy1").textContent = "";
+    document.getElementById("copy2").textContent = "";
     
 }
 
@@ -34,7 +34,7 @@ async function copyToClipboard(id,btn) {
   try {
     await navigator.clipboard.writeText(text);
     console.log("Password copied to clipboard");
-    document.getElementById(btn).textContent = "Copied!";
+    document.getElementById(btn).textContent = "";
   } catch (err) {
     console.error("Failed to copy password: ", err);
   }

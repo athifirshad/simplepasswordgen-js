@@ -90,14 +90,24 @@ p1{
 .copy-btn {
     background-color: #10B981;
     color: white;
+    border: #273549;
     padding: 5px 10px;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 15px;
     cursor: pointer;
+    margin-left: 10px;
     flex-direction: row;
 
 
 }
 .copy-btn:hover {
     background-color: #1F2937;
+}
+
+.finalpass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
