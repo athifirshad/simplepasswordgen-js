@@ -91,7 +91,7 @@ p1{
     background-color: #10B981;
     color: white;
     border: #273549;
-    padding: 5px 10px;
+    padding: 5px 5px;
     border-radius: 10px;
     font-size: 15px;
     cursor: pointer;
@@ -108,6 +108,4 @@ p1{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
